@@ -1,0 +1,15 @@
+{
+  "name": "ob-javascript-basics",
+  "version": "1.0.0",
+  "description": "Open Bootcamp's JavaScript Basics course",
+  "main": "index.js",
+  "scripts": {
+    "introduction": "node introduccion-a-javascript/ejercicio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ruben",
+  "license": "ISC"
+}
