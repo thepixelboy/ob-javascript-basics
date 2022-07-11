@@ -12,7 +12,7 @@ const comparaFechas = fechaHoy > miAniversario
 const miDia = miAniversario.getDate()
 
 // - Una variable que contenga el mes de tu nacimiento (recuerda que Enero es mes 0)
-const miMes = miAniversario.getMonth()
+const miMes = miAniversario.getMonth() + 1
 
 // - Una variable que contenga el año de tu nacimiento (con 4 dígitos)
 const miAnio = miAniversario.getFullYear()
