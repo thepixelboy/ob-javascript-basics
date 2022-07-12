@@ -15,7 +15,7 @@ const miPromesa = new Promise((resolve, reject) => {
 miPromesa.then(() => console.log("Hola soy una promesa"))
 // - Una función generadora de índices pares automáticos
 function* generarIndicePar() {
-  let num = 2
+  let num = 1
 
   while(true) {
     num *= 2
@@ -24,3 +24,7 @@ function* generarIndicePar() {
 }
 
 const gen = generarIndicePar()
+
+console.log(gen.next())
+console.log(gen.next())
+console.log(gen.next())
