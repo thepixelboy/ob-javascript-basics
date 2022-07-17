@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "introduction": "node 01-introduccion-a-javascript/ejercicio.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-fix": "eslint --fix ."
   },
   "keywords": [
     "javascript"
@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
   }
 }
