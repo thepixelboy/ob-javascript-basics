@@ -1,0 +1,21 @@
+{
+  "name": "ob-javascript-basics",
+  "version": "1.0.0",
+  "description": "Open Bootcamp's JavaScript Basics course",
+  "main": "index.js",
+  "scripts": {
+    "introduction": "node 01-introduccion-a-javascript/ejercicio.js",
+    "lint-fix": "eslint --fix ."
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ruben",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  }
+}
